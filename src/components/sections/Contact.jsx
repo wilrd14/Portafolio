@@ -58,9 +58,9 @@ export default function Contact() {
                     <div className="w-12 h-12 rounded-xl bg-accent/10 dark:bg-dark-accent/10 flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110">
                       <Icon size={22} className="text-accent dark:text-dark-accent" />
                     </div>
-                    <div>
+                    <div className="min-w-0">
                       <p className="text-sm text-text-secondary dark:text-dark-text-secondary mb-1">{label}</p>
-                      <p className="text-text-primary dark:text-dark-text-primary font-medium">{displayValue}</p>
+                      <p className="text-text-primary dark:text-dark-text-primary font-medium [overflow-wrap:anywhere]">{displayValue}</p>
                     </div>
                   </div>
                 )

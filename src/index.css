@@ -64,6 +64,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 
 /* Fondo Void con dos degradados radiales suaves (cian arriba-derecha, magenta abajo-izquierda) */

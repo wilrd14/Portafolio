@@ -15,7 +15,7 @@ export default function Hero() {
 
       <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-[1.7fr_1fr] gap-12 items-center">
-          <div>
+          <div className="min-w-0">
             <ScrollReveal>
               <p className="label-mono mb-6">
                 <span className="text-text-secondary dark:text-dark-text-secondary">&gt;</span> wilrd14
@@ -23,10 +23,10 @@ export default function Hero() {
             </ScrollReveal>
 
             <ScrollReveal delay={0.1}>
-              <h1 className="text-5xl md:text-6xl xl:text-7xl leading-[1.05] text-text-primary dark:text-dark-text-primary mb-6">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl leading-[1.05] text-text-primary dark:text-dark-text-primary mb-6">
                 {t('hero.promise_1')}
                 <br />
-                <span className="text-accent dark:text-dark-accent whitespace-nowrap">{t('hero.promise_2')}<span className="cursor" aria-hidden="true" /></span>
+                <span className="text-accent dark:text-dark-accent sm:whitespace-nowrap">{t('hero.promise_2')}<span className="cursor" aria-hidden="true" /></span>
               </h1>
             </ScrollReveal>
 
