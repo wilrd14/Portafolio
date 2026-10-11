@@ -63,5 +63,18 @@
     "repoUrl": "https://github.com/wilrd14/Jarvis",
     "featured": true,
     "order": 5
+  },
+  {
+    "id": "tunedrop",
+    "title": "tunedrop",
+    "slug": "tunedrop",
+    "description": "Descargador de música de YouTube y YouTube Music: pega un enlace, elige las pistas y descarga MP3 o M4A con portada y metadatos. Progreso en vivo por SSE, playlists en ZIP y despliegue privado con Cloudflare Tunnel + Access.",
+    "category": "fullstack",
+    "tech": ["React", "TypeScript", "Tailwind CSS", "Fastify", "Node.js", "Cloudflare"],
+    "image": "/images/projects/music-downloader.jpg",
+    "liveUrl": "",
+    "repoUrl": "https://github.com/wilrd14/Music_Downloader",
+    "featured": true,
+    "order": 6
   }
 ]
