@@ -76,5 +76,18 @@
     "repoUrl": "https://github.com/wilrd14/Music_Downloader",
     "featured": true,
     "order": 6
+  },
+  {
+    "id": "conciliacion-pagos",
+    "title": "Conciliación de Pagos",
+    "slug": "conciliacion-pagos",
+    "description": "Herramienta en Python y pandas que cruza facturas con pagos: limpia referencias desordenadas, convierte monedas con la tasa vigente (merge_asof), marca como ambiguos los pagos que no se pueden asignar con certeza y genera reportes de dinero recuperable en CSV y Parquet. 33 pruebas con pytest.",
+    "category": "backend",
+    "tech": ["Python", "pandas", "pytest", "Parquet"],
+    "image": "/images/projects/conciliacion-pagos.png",
+    "liveUrl": "",
+    "repoUrl": "https://github.com/wilrd14/conciliacion-pagos",
+    "featured": true,
+    "order": 7
   }
 ]
