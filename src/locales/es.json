@@ -56,16 +56,28 @@
     "title": "Servicios",
     "items": [
       {
-        "title": "Desarrollo Web Frontend",
-        "description": "Aplicaciones web modernas con React, Vite y Tailwind CSS"
+        "title": "Sitios web y diseño UI/UX",
+        "description": "Portafolios y sitios modernos con React, Vite y Tailwind CSS: bilingües, modo oscuro/claro y adaptados a cualquier dispositivo"
       },
       {
-        "title": "Diseño UI/UX",
-        "description": "Interfaces limpias y intuitivas con enfoque en la experiencia del usuario"
+        "title": "Tiendas online con pagos",
+        "description": "E-commerce completo con panel de administración, catálogo, carrito y cobros con PayPal"
       },
       {
-        "title": "Maquetación Responsive",
-        "description": "Diseños que se adaptan perfectamente a cualquier dispositivo"
+        "title": "SaaS y sistemas de reservas",
+        "description": "Plataformas con cuentas, planes y suscripciones: citas multi-empleado, depósitos, recordatorios por email/SMS"
+      },
+      {
+        "title": "Aplicaciones de escritorio",
+        "description": "Apps ligeras con Tauri que funcionan sin nube: cotizadores, generación de PDF y bases de datos locales"
+      },
+      {
+        "title": "Automatización y datos con Python",
+        "description": "Scripts y reportes con pandas: concilia facturas y pagos, limpia datos y exporta a CSV, Parquet o Excel"
+      },
+      {
+        "title": "Asistentes con IA y herramientas privadas",
+        "description": "Asistentes de voz y utilidades a tu medida con integraciones de IA, acceso privado desde el celular y control de gasto"
       }
     ]
   },

@@ -56,16 +56,28 @@
     "title": "Services",
     "items": [
       {
-        "title": "Frontend Web Development",
-        "description": "Modern web applications with React, Vite and Tailwind CSS"
+        "title": "Websites & UI/UX Design",
+        "description": "Portfolios and modern sites with React, Vite and Tailwind CSS: bilingual, dark/light mode and responsive on any device"
       },
       {
-        "title": "UI/UX Design",
-        "description": "Clean and intuitive interfaces focused on user experience"
+        "title": "Online Stores with Payments",
+        "description": "Full e-commerce with admin panel, catalog, cart and PayPal checkout"
       },
       {
-        "title": "Responsive Design",
-        "description": "Designs that adapt perfectly to any device"
+        "title": "SaaS & Booking Systems",
+        "description": "Platforms with accounts, plans and subscriptions: multi-staff appointments, deposits, email/SMS reminders"
+      },
+      {
+        "title": "Desktop Applications",
+        "description": "Lightweight Tauri apps that work offline: quote calculators, PDF generation and local databases"
+      },
+      {
+        "title": "Python Automation & Data",
+        "description": "Scripts and reports with pandas: reconcile invoices and payments, clean data and export to CSV, Parquet or Excel"
+      },
+      {
+        "title": "AI Assistants & Private Tools",
+        "description": "Custom voice assistants and utilities with AI integrations, private access from your phone and spend control"
       }
     ]
   },
