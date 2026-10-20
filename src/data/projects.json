@@ -59,7 +59,6 @@
     "category": "fullstack",
     "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "OpenRouter", "Tailscale", "Node.js"],
     "image": "/images/projects/jarvis.png",
-    "liveUrl": "https://jarvis.w-tech.uk",
     "repoUrl": "https://github.com/wilrd14/Jarvis",
     "featured": true,
     "order": 5
