@@ -24,6 +24,7 @@ export default function Hero() {
 
             <ScrollReveal delay={0.1}>
               <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl leading-[1.05] text-text-primary dark:text-dark-text-primary mb-6">
+                <span className="sr-only">{t('hero.h1_prefix')} </span>
                 {t('hero.promise_1')}
                 <br />
                 <span className="text-accent dark:text-dark-accent sm:whitespace-nowrap">{t('hero.promise_2')}<span className="cursor" aria-hidden="true" /></span>

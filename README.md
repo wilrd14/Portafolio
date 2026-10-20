@@ -17,13 +17,15 @@ Personal developer portfolio built with React and designed with Apple-style aest
 
 **Live:** [wilrd14.dev](https://wilrd14.dev/)
 
+SEO e indexación: ver [docs/SEO.md](docs/SEO.md).
+
 ## Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
 | **Frontend** | React 19, Vite 6, Tailwind CSS 4 |
 | **Animations** | Motion (Framer Motion) |
-| **Routing** | React Router 7 |
+| **Routing** | React Router 7 (prerender estático en el build) |
 | **CMS** | Decap CMS |
 | **Hosting** | Cloudflare Pages |
 | **Contact Form** | Cloudflare Workers + Resend |

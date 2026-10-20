@@ -19,7 +19,11 @@ export default function About() {
                 <div className="relative w-64 h-64 rounded-full bg-surface dark:bg-dark-surface border border-border dark:border-dark-border overflow-hidden">
                   <img
                     src="/images/avatar.jpg"
-                    alt="Williams R. Villavizar Hdez"
+                    alt="Williams R. Villavizar Hdez, desarrollador web en Santo Domingo"
+                    width={1178}
+                    height={883}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover"
                   />
                 </div>
