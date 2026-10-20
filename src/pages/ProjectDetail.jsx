@@ -5,6 +5,10 @@ import Container from '../components/layout/Container'
 import ScrollReveal from '../components/effects/ScrollReveal'
 import { useLanguage } from '../context/LanguageContext'
 import projectsData from '../data/projects.json'
+import NotFound from './NotFound'
+import useSeo from '../seo/useSeo'
+import { projectMeta, projectJsonLd, notFoundMeta } from '../seo/meta'
+import seo from '../seo/seo.json'
 
 export default function ProjectDetail() {
   const { slug } = useParams()
@@ -12,25 +16,12 @@ export default function ProjectDetail() {
 
   const project = projectsData.find(p => p.slug === slug)
 
-  if (!project) {
-    return (
-      <Container className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl mb-4">404<span className="cursor" aria-hidden="true" /></h1>
-          <p className="text-text-secondary dark:text-dark-text-secondary mb-8">
-            Proyecto no encontrado
-          </p>
-          <Link
-            to="/"
-            className="inline-flex items-center gap-2 text-accent dark:text-dark-accent hover:underline"
-          >
-            <ArrowLeft size={16} />
-            Volver al inicio
-          </Link>
-        </div>
-      </Container>
-    )
-  }
+  useSeo(
+    project ? projectMeta(seo, project) : notFoundMeta(seo),
+    project ? projectJsonLd(seo, project) : null,
+  )
+
+  if (!project) return <NotFound />
 
   return (
     <Container className="pt-28 pb-24 md:pb-32">
@@ -69,7 +60,10 @@ export default function ProjectDetail() {
         <div className="card aspect-video mb-8 overflow-hidden">
           <img
             src={project.image}
-            alt={project.title}
+            alt={`Captura del proyecto ${project.title}`}
+            width={1280}
+            height={720}
+            decoding="async"
             className="w-full h-full object-cover"
             onError={(e) => {
               e.target.style.display = 'none'

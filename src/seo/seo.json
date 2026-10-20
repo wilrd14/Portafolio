@@ -1,0 +1,38 @@
+{
+  "siteUrl": "https://wilrd14.dev",
+  "siteName": "Williams Villavizar",
+  "personName": "Williams R. Villavizar Hdez",
+  "jobTitle": "Desarrollador web",
+  "locality": "Santo Domingo",
+  "country": "DO",
+  "countryName": "República Dominicana",
+  "image": "/og-image.png",
+  "imageWidth": 1200,
+  "imageHeight": 630,
+  "sameAs": [
+    "https://github.com/wilrd14",
+    "https://www.linkedin.com/in/williams-rafael/"
+  ],
+  "knowsAbout": [
+    "Desarrollo web",
+    "React",
+    "Diseño UI/UX",
+    "Tiendas online",
+    "SaaS",
+    "Aplicaciones de escritorio",
+    "Python",
+    "Automatización",
+    "Inteligencia artificial"
+  ],
+  "keywords": "desarrollador web, Santo Domingo, República Dominicana, tiendas online, React, diseño UI/UX, SaaS, automatización con Python, asistentes con IA",
+  "home": {
+    "es": {
+      "title": "Williams Villavizar | Desarrollador Web en Santo Domingo, RD",
+      "description": "Desarrollador web en Santo Domingo, República Dominicana. Creo sitios web con React, tiendas online con pagos, SaaS, apps de escritorio y automatización con Python e IA."
+    },
+    "en": {
+      "title": "Williams Villavizar | Web Developer in Santo Domingo, DR",
+      "description": "Web developer in Santo Domingo, Dominican Republic. I build React websites, online stores with payments, SaaS, desktop apps and Python and AI automation."
+    }
+  }
+}

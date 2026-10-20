@@ -52,7 +52,11 @@ export default function Projects() {
                 <div className="aspect-video bg-bg dark:bg-dark-bg border-b border-border dark:border-dark-border overflow-hidden">
                   <img
                     src={project.image}
-                    alt={project.title}
+                    alt={`Captura del proyecto ${project.title}`}
+                    width={1280}
+                    height={720}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
                       e.target.style.display = 'none'
