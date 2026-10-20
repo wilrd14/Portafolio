@@ -1,9 +1,9 @@
-import { Code, Palette, Smartphone } from 'lucide-react'
+import { Bot, CalendarCheck, DatabaseZap, Globe, Monitor, ShoppingCart } from 'lucide-react'
 import { useLanguage } from '../../context/LanguageContext'
 import ScrollReveal from '../effects/ScrollReveal'
 import Container from '../layout/Container'
 
-const icons = [Code, Palette, Smartphone]
+const icons = [Globe, ShoppingCart, CalendarCheck, Monitor, DatabaseZap, Bot]
 
 export default function Services() {
   const { t } = useLanguage()
@@ -18,7 +18,7 @@ export default function Services() {
           </h2>
         </ScrollReveal>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {Array.isArray(services) && services.map((service, index) => {
             const Icon = icons[index]
             return (
